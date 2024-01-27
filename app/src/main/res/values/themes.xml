@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SistemaComandas" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/azul</item>
+        <item name="colorAccent">@color/verde</item>
+        <item name="android:itemBackground">@color/disponible</item>
+    </style>
+
+    <style name="Theme.SistemaComandas" parent="Base.Theme.SistemaComandas" />
+
+    <style name="Theme.SistemaComandas.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.SistemaComandas.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.SistemaComandas.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

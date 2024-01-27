@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.asadordelchapulin.MesasFragment"
+        android:label=""
+        tools:layout="@layout/fragment_mesas2" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.asadordelchapulin.ComandasFragment"
+        android:label=""
+        tools:layout="@layout/fragment_comandas" />
+    <fragment
+        android:id="@+id/nav_cortes"
+        android:name="com.example.asadordelchapulin.encargado.CortesFragment"
+        android:label=""
+        tools:layout="@layout/fragment_cortes" />
+
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.example.asadordelchapulin.PerfilFragment"
+        android:label=""
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/nav_edit_mesas"
+        android:name="com.example.asadordelchapulin.encargado.MesaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_mesa" />
+
+    <fragment
+        android:id="@+id/nav_usuarios"
+        android:name="com.example.asadordelchapulin.encargado.UsuariosFragment"
+        android:label=""
+        tools:layout="@layout/fragment_usuarios" />
+    <fragment
+        android:id="@+id/nav_add_user"
+        android:name="com.example.asadordelchapulin.encargado.AddUserFragment"
+        android:label=""
+        tools:layout="@layout/fragment_add_user" />
+    <fragment
+        android:id="@+id/nav_platillos"
+        android:name="com.example.asadordelchapulin.encargado.PlatillosFragment"
+        android:label=""
+        tools:layout="@layout/fragment_platillos" />
+    <fragment
+        android:id="@+id/nav_add_categoria"
+        android:name="com.example.asadordelchapulin.encargado.AddCategoriaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_add_categoria" />
+    <fragment
+        android:id="@+id/nav_platillos_categoria"
+        android:name="com.example.asadordelchapulin.encargado.PlatillosCategoriaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_platillos_categoria" />
+    <fragment
+        android:id="@+id/nav_add_platillo"
+        android:name="com.example.asadordelchapulin.encargado.AddPlatilloFragment"
+        android:label=""
+        tools:layout="@layout/fragment_add_platillo" />
+    <fragment
+        android:id="@+id/nav_edit_categoria"
+        android:name="com.example.asadordelchapulin.encargado.EditarCategoriaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_editar_categoria" />
+    <fragment
+        android:id="@+id/nav_edit_platillo"
+        android:name="com.example.asadordelchapulin.encargado.EditarPlatilloFragment"
+        android:label=""
+        tools:layout="@layout/fragment_editar_platillo" />
+    <fragment
+        android:id="@+id/nav_add_mesa"
+        android:name="com.example.asadordelchapulin.encargado.AddMesaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_add_mesa" />
+    <fragment
+        android:id="@+id/nav_editar_mesa"
+        android:name="com.example.asadordelchapulin.encargado.FragmentEditarMesa"
+        android:label=""
+        tools:layout="@layout/fragment_editar_mesa" />
+    <fragment
+        android:id="@+id/nav_cambiar_contrasenia"
+        android:name="com.example.asadordelchapulin.CambiarPasswordFragment"
+        android:label=""
+        tools:layout="@layout/fragment_cambiar_password" />
+    <fragment
+        android:id="@+id/nav_configurar_mesa"
+        android:name="com.example.asadordelchapulin.ConfigurarMesaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_configurar_mesa" />
+    <fragment
+        android:id="@+id/nav_detalle_mesa"
+        android:name="com.example.asadordelchapulin.MesaDetalleFragment"
+        android:label=""
+        tools:layout="@layout/fragment_mesa_detalle" />
+    <fragment
+        android:id="@+id/nav_detalle_cuenta"
+        android:name="com.example.asadordelchapulin.DetalleCuentaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_detalle_cuenta" />
+    <fragment
+        android:id="@+id/nav_add_cuenta"
+        android:name="com.example.asadordelchapulin.AddCuentaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_add_cuenta" />
+    <fragment
+        android:id="@+id/nav_add_orden"
+        android:name="com.example.asadordelchapulin.GenerarOrdenFragment"
+        android:label=""
+        tools:layout="@layout/fragment_generar_orden" />
+
+    <fragment
+        android:id="@+id/nav_edit_user"
+        android:name="com.example.asadordelchapulin.encargado.EditarUserFragment"
+        android:label=""
+        tools:layout="@layout/fragment_editar_user" />
+
+    <fragment
+        android:id="@+id/nav_configuracion"
+        android:name="com.example.asadordelchapulin.encargado.ConfiguracionFragment"
+        android:label=""
+        tools:layout="@layout/fragment_configuracion" />
+    <fragment
+        android:id="@+id/nav_ventas"
+        android:name="com.example.asadordelchapulin.encargado.VentasFragment"
+        android:label=""
+        tools:layout="@layout/fragment_ventas" />
+    <fragment
+        android:id="@+id/nav_detalle_venta"
+        android:name="com.example.asadordelchapulin.encargado.DetalleVentaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_detalle_venta" />
+
+    <fragment
+        android:id="@+id/nav_correcion"
+        android:name="com.example.asadordelchapulin.encargado.CorrecionFragment"
+        android:label=""
+        tools:layout="@layout/fragment_correcion" />
+
+    <fragment
+        android:id="@+id/nav_show_comandas"
+        android:name="com.example.asadordelchapulin.encargado.CorregirComandasFragment"
+        android:label=""
+        tools:layout="@layout/fragment_corregir_comandas" />
+</navigation>

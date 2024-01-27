@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "609205506932",
+    "project_id": "sistema-de-comandas",
+    "storage_bucket": "sistema-de-comandas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609205506932:android:57f3327351950c6aaad221",
+        "android_client_info": {
+          "package_name": "com.example.asadordelchapulin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC2T5Q5pb-AsHjgfGDsZAWfyHlCl_lJVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

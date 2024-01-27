@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_comandas_prueba"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/inicio" />
+
+    <item
+        android:id="@+id/navig_comandas_finalizadas"
+        android:icon="@drawable/baseline_task_24"
+        android:title="@string/comandasFin" />
+
+    <item
+        android:id="@+id/navig_platillos"
+        android:icon="@drawable/baseline_no_food_24"
+        android:title="@string/platillos" />
+
+    <item
+        android:id="@+id/navig_perfil"
+        android:icon="@drawable/ic_perfil"
+        android:title="@string/perfil" />
+
+</menu>

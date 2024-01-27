@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">Asador del Chapulín</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="iniciarSesion">Iniciar Sesión</string>
+    <string name="correo">Correo</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="olvideContrasenia">¿Olvidaste tu contraseña?</string>
+    <string name="title_activity_home_mesero">HomeMesero</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home_encargado">HomeEncargado</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="addMesa">+ Agregar Mesa</string>
+    <string name="perfil">Perfil</string>
+    <string name="inicio">Inicio</string>
+    <string name="comandas">Comandas</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="mesas">Mesas</string>
+    <string name="nombre">Nombre</string>
+    <string name="guardar">Guardar</string>
+    <string name="cambiarContrasenia">Cambiar contraseña</string>
+    <string name="usuarios">Usuarios</string>
+    <string name="addUser">Agregar Usuario</string>
+    <string name="addU">+ Agregar usuario</string>
+    <string name="name">Nombre:</string>
+    <string name="email">Correo:</string>
+    <string name="rol">Rol:</string>
+
+    <string name="confirmarContrasenia">Confirmar contraseña</string>
+    <string name="rolUser">Rol</string>
+
+    <string name="platillos">Platillos</string>
+    <string name="categorias">Categorías</string>
+    <string name="addCategoria">+ Nueva categoría</string>
+    <string name="addCategoriaTitle">Agregar categoría</string>
+
+    <string name="ingresarCategoria">Ingrese el nombre de la categoría</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="editar">Editar</string>
+    <string name="addPlatillo">+ Agregar Platillo</string>
+    <string name="addPlatilloTitle">Agregar Platillo</string>
+    <string name="tamanio">Tamaño</string>
+    <string name="precio">Precio</string>
+    <string name="descripcion">Descripción</string>
+    <string name="area">Área</string>
+
+    <string name="actualizar">Actualizar</string>
+    <string name="editarPlatillo">Editar Platillo</string>
+
+    <string name="numMesa">Identificador de mesa</string>
+    <string name="numComensales">Cupo</string>
+    <string name="addMesaTitle">Agregar Mesa</string>
+    <string name="desactivar">Desactivar</string>
+    <string name="cerrarSesion">Cerrar Sesión</string>
+
+    <string name="numAdultos">Número de adultos</string>
+    <string name="numNinos">Número de niños</string>
+    <string name="activar">Activar</string>
+    <string name="reservar">Reservar</string>
+    <string name="addCuenta">+ Agregar Cuenta</string>
+    <string name="addCuentaBtn">Agregar Cuenta</string>
+    <string name="nuevaOrden">+ Nueva Orden</string>
+
+    <string name="categoria">Categoría: </string>
+    <string name="producto">Producto: </string>
+    <string name="cantidad">Cantidad: </string>
+    <string name="agregar">Agregar</string>
+    <string name="productosOrdenados">Productos Ordenados</string>
+    <string name="generarOrden">Generar Orden</string>
+    <string name="modificar">Modificar</string>
+    <string name="title_activity_home_cocina">HomeCocina</string>
+    <string name="comandasFin">Finalizadas</string>
+
+    <string name="verificar">Verificar</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="tituloVerificar">Solicitar verificación</string>
+
+    <string name="changePassword">Cambiar contraseña</string>
+    <string name="contraseniaActual">Contraseña actual</string>
+    <string name="contraseniaNueva">Nueva contraseña</string>
+    <string name="contraseniaConfirmado">Confirmar contraseña</string>
+    <string name="ActualizarContrasenia">Actualizar contraseña</string>
+    <string name="cancelarReservacion">Cancelar reservacion</string>
+    <string name="verDetalles">Ver detalles ▼</string>
+    <string name="imprimir">Imprimir cuenta</string>
+    <string name="pagar">Saldar cuenta</string>
+
+    <string name="editarUser">Modificar Usuario</string>
+    <string name="actualizarRol">Actualizar rol</string>
+    <string name="deleteUser">Eliminar usuario</string>
+    <string name="despedirMesa">Despedir mesa</string>
+
+    <string name="consumoMinimo">Consumo mínimo</string>
+    <string name="total">Total</string>
+    <string name="diferencia">Diferencia</string>
+    <string name="configuracion">Configuración</string>
+    <string name="barra">Barra</string>
+    <string name="consumoAdulto">Consumo adulto</string>
+    <string name="consumoNino">Consumo niño</string>
+    <string name="cerrarTurno">Cerrar turno</string>
+    <string name="motivo">Motivo</string>
+
+    <string name="removeCuenta">Eliminar cuenta</string>
+    <string name="cocina">Cocina</string>
+    <string name="decrementar">-</string>
+    <string name="incrementar">+</string>
+    <string name="uno">1</string>
+    <string name="nuevoProducto">Nuevo producto</string>
+    <string name="avisos">Avisos</string>
+    <string name="ventas">Ventas</string>
+    <string name="fecha">Fecha:</string>
+    <string name="cliente">Cliente:</string>
+    <string name="mesero">Mesero:</string>
+    <string name="mesaCuenta">Mesa:</string>
+    <string name="totalCuenta">Total:</string>
+    <string name="ingresarFecha">Seleccione la fecha</string>
+    <string name="ventaTotal">Venta total: </string>
+    <string name="existencia">Existencia: </string>
+    <string name="cerrar">Cerrar</string>
+    <string name="imprimirReporte">Realizar corte</string>
+    <string name="detalleVenta">Detalle Venta</string>
+    <string name="imprimirTicket">Imprimir Ticket</string>
+    <string name="folio">Folio: </string>
+    <string name="removeAvisos">Remover Avisos</string>
+    <string name="correcion">Correciones</string>
+    <string name="comandasEntregadas">Comandas entregadas</string>
+    <string name="comandasEnProceso">Comandas en proceso</string>
+    <string name="guardarModificacion">Realizar modificación</string>
+
+    <string name="comal">Comal</string>
+    <string name="platilloPersonalizado">Platillo personalizado</string>
+    <string name="antojito">Antojito</string>
+    <string name="cantidadPlatillos">Cant. platillos</string>
+    <string name="observaciones">Observaciones</string>
+    <string name="addAntojito">Agregar Antojito</string>
+
+    <string name="medioPago">Indique el medio de pago</string>
+    <string name="formaPago">Forma de pago: </string>
+    <string name="cuenta">Cuenta</string>
+    <string name="verCortes">Ver Cortes</string>
+    <string name="cortes">Cortes</string>
+    <string name="statusBarra">Área de Barra</string>
+    <string name="statusComal">Área de Comal</string>
+    <string name="updatePrinter">Actualizar IP</string>
+    <string name="addPlatillosOlvidados">+ Agregar Faltantes</string>
+    <string name="addToCuenta">Agregar a la cuenta</string>
+    <string name="verVentas">Ver ventas del día ▼</string>
+    <string name="efectivo">Efectivo:</string>
+    <string name="transferencia">Transferencia:</string>
+    <string name="printCorteDia">Imprimir venta del día</string>
+    <string name="lecturaAutomatica">Lectura automática</string>
+    <string name="entregar">Entregar</string>
+    <string name="traspasarMesa">Traspasar Mesa</string>
+    <string name="seleccionMesa">Seleccione la mesa destino</string>
+    <string name="verGastos">Gastos</string>
+    <string name="Diario">Diaria</string>
+    <string name="Mensual">Mensual</string>
+    <string name="Anual">Anual</string>
+    <string name="platillo">Platillo</string>
+    <string name="buscador">Ingrese el platillo a buscar</string>
+    <string name="persComal">Personalizar Del Comal</string>
+    <string name="contenidoPlatillo">Contenido del platillo</string>
+    <string name="removeVenta">Eliminar venta</string>
+</resources>

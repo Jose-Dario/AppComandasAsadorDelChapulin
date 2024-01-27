@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="azul">#3A4D39</color>
+    <color name="azulcielo">#398AB9</color>
+    <color name="cafe">#D8D2CB</color>
+    <color name="gris">#D8D2CB</color>
+    <color name="cafecito">#EEF2E6</color>
+    <color name="rojo">#820000</color>
+    <color name="disponible">#B2C8BA</color>
+    <color name="ocupado">#739072</color>
+    <color name="reservado">#4F6F52</color>
+    <color name="desactivado">#EEEEEE</color>
+    <color name="verde">#3A4D39</color>
+    <color name="productos">#F6F1F1</color>
+</resources>

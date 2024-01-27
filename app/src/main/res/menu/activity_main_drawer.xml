@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/inicio" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_task_24"
+            android:title="@string/comandas" />
+        <item
+            android:id="@+id/nav_ventas"
+            android:icon="@drawable/baseline_point_of_sale_24"
+            android:title="@string/ventas" />
+
+        <item
+            android:id="@+id/nav_edit_mesas"
+            android:icon="@drawable/baseline_table_restaurant_24"
+            android:title="@string/mesas" />
+        <item
+            android:id="@+id/nav_usuarios"
+            android:icon="@drawable/baseline_supervisor_account_24"
+            android:title="@string/usuarios" />
+        <item
+            android:id="@+id/nav_platillos"
+            android:icon="@drawable/baseline_restaurant_24"
+            android:title="@string/platillos" />
+
+        <item
+            android:id="@+id/nav_correcion"
+            android:icon="@drawable/baseline_edit_note_24"
+            android:title="@string/correcion" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_perfil"
+            android:title="@string/perfil" />
+
+        <item
+            android:id="@+id/nav_configuracion"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="@string/configuracion" />
+
+
+
+
+    </group>
+</menu>

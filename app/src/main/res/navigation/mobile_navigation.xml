@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.asadordelchapulin.MesasFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_mesas2" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.asadordelchapulin.ComandasFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_comandas" />
+
+    <fragment
+        android:id="@+id/nav_cortes"
+        android:name="com.example.asadordelchapulin.encargado.CortesFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_cortes" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.asadordelchapulin.PerfilFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/nav_cambiar_contrasenia"
+        android:name="com.example.asadordelchapulin.CambiarPasswordFragment"
+        android:label=""
+        tools:layout="@layout/fragment_cambiar_password" />
+    <fragment
+        android:id="@+id/nav_configurar_mesa"
+        android:name="com.example.asadordelchapulin.ConfigurarMesaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_configurar_mesa" />
+    <fragment
+        android:id="@+id/nav_detalle_mesa"
+        android:name="com.example.asadordelchapulin.MesaDetalleFragment"
+        android:label=""
+        tools:layout="@layout/fragment_mesa_detalle" />
+    <fragment
+        android:id="@+id/nav_detalle_cuenta"
+        android:name="com.example.asadordelchapulin.DetalleCuentaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_detalle_cuenta" />
+    <fragment
+        android:id="@+id/nav_add_cuenta"
+        android:name="com.example.asadordelchapulin.AddCuentaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_add_cuenta" />
+    <fragment
+        android:id="@+id/nav_add_orden"
+        android:name="com.example.asadordelchapulin.GenerarOrdenFragment"
+        android:label=""
+        tools:layout="@layout/fragment_generar_orden" />
+
+</navigation>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation3"
+    app:startDestination="@+id/navig_inicio">
+
+    <fragment
+        android:id="@+id/navig_inicio"
+        android:name="com.example.asadordelchapulin.area.ComandasPruebaFragment"
+        android:label="@string/inicio"
+        tools:layout="@layout/fragment_comandas_prueba" />
+
+    <fragment
+        android:id="@+id/navig_comandas_finalizadas"
+        android:name="com.example.asadordelchapulin.area.ComandasFinalizadasFragment"
+        android:label="@string/comandasFin"
+        tools:layout="@layout/fragment_comandas_finalizadas" />
+
+    <fragment
+        android:id="@+id/navig_platillos"
+        android:name="com.example.asadordelchapulin.encargado.PlatillosFragment"
+        android:label=""
+        tools:layout="@layout/fragment_platillos" />
+    <fragment
+        android:id="@+id/nav_add_categoria"
+        android:name="com.example.asadordelchapulin.encargado.AddCategoriaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_add_categoria" />
+    <fragment
+        android:id="@+id/nav_platillos_categoria"
+        android:name="com.example.asadordelchapulin.encargado.PlatillosCategoriaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_platillos_categoria" />
+    <fragment
+        android:id="@+id/nav_add_platillo"
+        android:name="com.example.asadordelchapulin.encargado.AddPlatilloFragment"
+        android:label=""
+        tools:layout="@layout/fragment_add_platillo" />
+    <fragment
+        android:id="@+id/nav_edit_categoria"
+        android:name="com.example.asadordelchapulin.encargado.EditarCategoriaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_editar_categoria" />
+    <fragment
+        android:id="@+id/nav_edit_platillo"
+        android:name="com.example.asadordelchapulin.encargado.EditarPlatilloFragment"
+        android:label=""
+        tools:layout="@layout/fragment_editar_platillo" />
+
+    <fragment
+        android:id="@+id/navig_perfil"
+        android:name="com.example.asadordelchapulin.PerfilFragment"
+        android:label="@string/perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/nav_cambiar_contrasenia"
+        android:name="com.example.asadordelchapulin.CambiarPasswordFragment"
+        android:label=""
+        tools:layout="@layout/fragment_cambiar_password" />
+    <fragment
+        android:id="@+id/nav_comandas_prueba"
+        android:name="com.example.asadordelchapulin.area.ComandasPruebaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_comandas_prueba" />
+</navigation>
